@@ -11,6 +11,8 @@ module.exports = {
         parser: 'babel-eslint'
     },
     rules: {
+        // 取消函数括号前的空格的规则
+        'space-before-function-paren': 0,
         // 取消缩进2格的规则
         'indent': ['off', 2],
         // 取消每个文件 保留最后一行是空行的规则
